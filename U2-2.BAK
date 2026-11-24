@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+	float d,h;
+	clrscr();
+
+	printf("enter first value : ");
+	scanf("%f",&d);
+
+	printf("enter the second value : ");
+	scanf("%f",&h);
+
+	printf("addition = %.2f\n", d + h);
+	printf("subtraction = %.2f\n", d - h);
+	printf("multiplication = %.2f\n", d * h);
+	printf("division = %,2f\n", d / h);
+
+	getch();
+
+}

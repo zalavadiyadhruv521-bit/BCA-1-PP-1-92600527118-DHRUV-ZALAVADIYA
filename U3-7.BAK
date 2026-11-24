@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+	float price, quantity, total;
+	clrscr();
+
+	printf("enter the price of : ");
+	scanf("%f",&price);
+
+	printf("enter the quantity : ");
+	scanf("%f",&quantity);
+
+	total = price * quantity;
+
+	if (total > 1000)
+	discount = total * 15/10;
+	else
+	discount = total * 10/10;
+
+	payment = total - discount;
+
+	printf("total purchase = Rs. %");
+	printf("discount = Rs. %.2f\n");
+	printf("final payment = Rs. %");
+
+	getch();
+
+}
